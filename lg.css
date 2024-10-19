@@ -1,0 +1,89 @@
+body
+{
+    background-image: url(https://th.bing.com/th/id/R.2588b2fc0e06b5f08712ceb1d2386a59?rik=NveR2n7eEPy5Rw&riu=http%3a%2f%2fgetwallpapers.com%2fwallpaper%2ffull%2f6%2f0%2fb%2f147917.jpg&ehk=IXsotsCjT18rFPGa37XiGK7XenE6NcdqAs5NmO%2bzC48%3d&risl=&pid=ImgRaw&r=0);
+}
+#lgbx
+{
+  background-color: floralwhite;
+   width: 700px ;
+   height: 358px;
+    padding: 30px;
+    box-shadow: 0 4px 8px 0 rgb(33, 33, 35);
+    margin-left: 220px;
+    margin-top: 90px;
+    align-content: start;
+    padding-top: 10px;
+    border-radius: 6px;
+}
+span
+{
+    width:30px; 
+    height:358px;
+    margin-left: 220px;
+    margin-top: -60px;
+    float: right;
+   
+}
+span img
+{
+    width: 250px;
+    height: 398px;
+    margin-left: -190px;
+    border-radius: 6px;
+
+}
+#lgbx input
+{
+    background-color: floralwhite;
+    margin-top: 20px;
+    padding: 13px 14px;
+    border-radius: 10px;
+}
+h4
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+    color: rgb(143, 142, 142);
+    margin-top: -20px;
+}
+#swtch
+{
+    color: rgb(114, 184, 254);
+    text-decoration: underline;
+}
+#swtch:hover
+{
+    color: rgb(169, 97, 237);
+}
+#swtch:visited
+{
+    color:rgb(109, 54, 227);
+}
+button 
+{
+    color: azure;
+    background-color: rgb(21, 21, 21);
+    width: 230px;
+    height: 33px;
+    border-radius: 4px;
+    margin-top: -50px;
+}
+.fa {
+    padding: 7px;
+    width: 19px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .google img
+  {
+    width: 35px ;
+    height: 30px;
+    float: right;
+    margin-right: 183px;
+    margin-top: 1.5px;
+  }
