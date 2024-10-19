@@ -1,0 +1,129 @@
+body
+{
+    background-color: rgb(176, 176, 215);
+    margin: 0px;
+    overflow-block: auto;
+    background-image: url(https://th.bing.com/th/id/R.5d20fde340179f5ff08ffd9fd3743971?rik=1Zv4Z0hF6L4YRw&riu=http%3a%2f%2fwww.hdwallpaperslife.com%2fwp-content%2fuploads%2f2018%2f02%2fblue_purple_abstract_hd-HD.jpg&ehk=UF0OfkHnQIDUXz8kzzjSe%2bU7k0OeW7FZg7VMaz4Ve%2bo%3d&risl=&pid=ImgRaw&r=0);
+}
+h2
+{
+    height: 2.3cm;
+    margin-top: 0px;
+    text-indent: 10px;
+    text-align: left;
+    color: rgb(205, 206, 252);
+    line-height: 30px;
+    background-image:linear-gradient(to right, darkblue, rgb(60, 60, 201),rgb(135, 133, 254) 75%);
+   
+}
+
+#links
+{
+    overflow: hidden;
+    margin-top: -50px;
+    margin-left: 1000px;
+}
+#links a
+{
+    color:rgb(56, 22, 79); 
+    padding: 10px 10px;
+    text-decoration: none;
+
+}
+#links a:hover
+{
+    color: ghostwhite; 
+    text-decoration: none;
+}
+
+h5
+{
+    margin-top:-55px;
+    margin-bottom: 40px;
+    text-indent: 60px ;
+    color: rgb(205, 206, 252);
+}
+#logo
+{
+    width:30px;
+    height:30px;
+    margin-top: 10px;
+}
+#headcp
+{
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ font-size: larger;
+}
+h1
+{
+    margin-top: -21px;
+    background-image:linear-gradient(to right, rgb(58, 50, 177) ,darkviolet, rgb(206, 130, 238));
+    height: 2.3cm;
+    text-indent: 7px;
+    line-height: 50px;
+    font-size: 35px;
+    font-weight: 900;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(34, 2, 82);
+} 
+#frd
+{
+    width:1230px;
+    height:420px;
+    margin-left:10px ;
+    margin-top: -30px;
+    border-radius: 10px;
+}
+h3
+{
+    margin-left:100px ;
+    font-size: 20px;
+    text-align: justify;
+    width: 75%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.column
+{
+     float: left;
+     padding: 50px 90px;
+     width: 35.67%;
+     height: 500px;
+     background-image: linear-gradient(to right,rgb(160, 160, 228),rgb(193, 89, 227),violet);
+}
+/* Left column */
+.card 
+  {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align:center;
+    padding-bottom: 3px;
+    background-color: rgb(216, 216, 249);
+    width:70%;
+    margin-left: 120px;
+  }
+  
+  
+  /*right column */
+  .card2 
+  {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    text-align: center;
+    padding-bottom: 3px;
+    background-color: rgb(216, 216, 249);
+    width:70%
+  }
+
+  /* Clear floats after the columns */
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
